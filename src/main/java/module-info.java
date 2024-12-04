@@ -10,6 +10,8 @@ module com.ednue.invoice.app.ednueinvoiceapp {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.ednue.invoice.app.ednueinvoiceapp to javafx.fxml;
-    exports com.ednue.invoice.app.ednueinvoiceapp;
+    opens com.ednue.invoiceapp to javafx.fxml;
+    exports com.ednue.invoiceapp;
+    exports com.ednue.invoiceapp.controllers;
+    opens com.ednue.invoiceapp.controllers to javafx.fxml;
 }

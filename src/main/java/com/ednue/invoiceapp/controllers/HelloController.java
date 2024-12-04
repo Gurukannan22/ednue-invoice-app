@@ -1,4 +1,4 @@
-package com.ednue.invoice.app.ednueinvoiceapp;
+package com.ednue.invoiceapp.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
