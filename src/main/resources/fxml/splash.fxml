@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ednue.invoiceapp.controllers.SplashController" style="-fx-background-color: white;">
+    <children>
+        <!-- Centered Ednue Logo -->
+        <ImageView fx:id="logoImage" fitHeight="300" fitWidth="500" />
+    </children>
+</StackPane>
